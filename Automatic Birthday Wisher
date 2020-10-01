@@ -1,6 +1,6 @@
 import pandas as pd
 import datetime
-import smtplib  # helps to send email
+import smtplib  
 
 GMAIL_USERNAME = ''
 GMAIL_PASSWORD = ''
@@ -29,7 +29,7 @@ if __name__ == '__main__':
             send_e_Mail(item['EMAIL'], "WISHING YOU A HAPPY BIRTHDAY", item['TEXT'])
             writeInd.append(index)
 
-# print(writeInd)
+
 for i in writeInd:
     yr = df.loc[i, 'YEAR']
     df.loc[i, 'YEAR'] = str(yr) + ', ' + str(year)
