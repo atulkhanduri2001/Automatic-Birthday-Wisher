@@ -10,9 +10,9 @@ Requirements to run program:
 
 Installation required :
 Following libraries to be installed:
-     import pandas as pd
-     import datetime
-     import smtplib
+  1. import pandas as pd 
+  2. import datetime
+  3. import smtplib
 
 Steps need to be followed for working of programs:
 1. GMAIL_USERNAME = 'enter your Gmail username'
